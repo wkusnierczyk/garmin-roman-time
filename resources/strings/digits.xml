@@ -1,0 +1,15 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <jsonData id="RomanNumerals">{
+        "0": "N",
+        "1": "I",
+        "4": "IV",
+        "5": "V",
+        "9": "IX",
+        "10": "X",
+        "40": "XL",
+        "50": "L"
+    }</jsonData>
+
+</resources>

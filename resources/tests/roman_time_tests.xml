@@ -1,0 +1,307 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <jsonData id="RomanTimeTests">[
+        {
+            "name": "Roman zero",
+            "input": 0,
+            "expected": "N"
+        },
+        {
+            "name": "Roman one",
+            "input": 1,
+            "expected": "I"
+        },
+        {
+            "name": "Roman two",
+            "input": 2,
+            "expected": "II"
+        },
+        {
+            "name": "Roman three",
+            "input": 3,
+            "expected": "III"
+        },
+        {
+            "name": "Roman four",
+            "input": 4,
+            "expected": "IV"
+        },
+        {
+            "name": "Roman five",
+            "input": 5,
+            "expected": "V"
+        },
+        {
+            "name": "Roman six",
+            "input": 6,
+            "expected": "VI"
+        },
+        {
+            "name": "Roman seven",
+            "input": 7,
+            "expected": "VII"
+        },
+        {
+            "name": "Roman eight",
+            "input": 8,
+            "expected": "VIII"
+        },
+        {
+            "name": "Roman nine",
+            "input": 9,
+            "expected": "IX"
+        },
+        {
+            "name": "Roman ten",
+            "input": 10,
+            "expected": "X"
+        },
+        {
+            "name": "Roman eleven",
+            "input": 11,
+            "expected": "XI"
+        },
+        {
+            "name": "Roman twelve",
+            "input": 12,
+            "expected": "XII"
+        },
+        {
+            "name": "Roman thirteen",
+            "input": 13,
+            "expected": "XIII"
+        },
+        {
+            "name": "Roman fourteen",
+            "input": 14,
+            "expected": "XIV"
+        },
+        {
+            "name": "Roman fifteen",
+            "input": 15,
+            "expected": "XV"
+        },
+        {
+            "name": "Roman sixteen",
+            "input": 16,
+            "expected": "XVI"
+        },
+        {
+            "name": "Roman seventeen",
+            "input": 17,
+            "expected": "XVII"
+        },
+        {
+            "name": "Roman eighteen",
+            "input": 18,
+            "expected": "XVIII"
+        },
+        {
+            "name": "Roman nineteen",
+            "input": 19,
+            "expected": "XIX"
+        },
+        {
+            "name": "Roman twenty",
+            "input": 20,
+            "expected": "XX"
+        },
+        {
+            "name": "Roman twenty one",
+            "input": 21,
+            "expected": "XXI"
+        },
+        {
+            "name": "Roman twenty two",
+            "input": 22,
+            "expected": "XXII"
+        },
+        {
+            "name": "Roman twenty three",
+            "input": 23,
+            "expected": "XXIII"
+        },
+        {
+            "name": "Roman twenty four",
+            "input": 24,
+            "expected": "XXIV"
+        },
+        {
+            "name": "Roman twenty five",
+            "input": 25,
+            "expected": "XXV"
+        },
+        {
+            "name": "Roman twenty six",
+            "input": 26,
+            "expected": "XXVI"
+        },
+        {
+            "name": "Roman twenty seven",
+            "input": 27,
+            "expected": "XXVII"
+        },
+        {
+            "name": "Roman twenty eight",
+            "input": 28,
+            "expected": "XXVIII"
+        },
+        {
+            "name": "Roman twenty nine",
+            "input": 29,
+            "expected": "XXIX"
+        },
+        {
+            "name": "Roman thirty",
+            "input": 30,
+            "expected": "XXX"
+        },
+        {
+            "name": "Roman thirty one",
+            "input": 31,
+            "expected": "XXXI"
+        },
+        {
+            "name": "Roman thirty two",
+            "input": 32,
+            "expected": "XXXII"
+        },
+        {
+            "name": "Roman thirty three",
+            "input": 33,
+            "expected": "XXXIII"
+        },
+        {
+            "name": "Roman thirty four",
+            "input": 34,
+            "expected": "XXXIV"
+        },
+        {
+            "name": "Roman thirty five",
+            "input": 35,
+            "expected": "XXXV"
+        },
+        {
+            "name": "Roman thirty six",
+            "input": 36,
+            "expected": "XXXVI"
+        },
+        {
+            "name": "Roman thirty seven",
+            "input": 37,
+            "expected": "XXXVII"
+        },
+        {
+            "name": "Roman thirty eight",
+            "input": 38,
+            "expected": "XXXVIII"
+        },
+        {
+            "name": "Roman thirty nine",
+            "input": 39,
+            "expected": "XXXIX"
+        },
+        {
+            "name": "Roman forty",
+            "input": 40,
+            "expected": "XL"
+        },
+        {
+            "name": "Roman forty one",
+            "input": 41,
+            "expected": "XLI"
+        },
+        {
+            "name": "Roman forty two",
+            "input": 42,
+            "expected": "XLII"
+        },
+        {
+            "name": "Roman forty three",
+            "input": 43,
+            "expected": "XLIII"
+        },
+        {
+            "name": "Roman forty four",
+            "input": 44,
+            "expected": "XLIV"
+        },
+        {
+            "name": "Roman forty five",
+            "input": 45,
+            "expected": "XLV"
+        },
+        {
+            "name": "Roman forty six",
+            "input": 46,
+            "expected": "XLVI"
+        },
+        {
+            "name": "Roman forty seven",
+            "input": 47,
+            "expected": "XLVII"
+        },
+        {
+            "name": "Roman forty eight",
+            "input": 48,
+            "expected": "XLVIII"
+        },
+        {
+            "name": "Roman forty nine",
+            "input": 49,
+            "expected": "XLIX"
+        },
+        {
+            "name": "Roman fifty",
+            "input": 50,
+            "expected": "L"
+        },
+        {
+            "name": "Roman fifty one",
+            "input": 51,
+            "expected": "LI"
+        },
+        {
+            "name": "Roman fifty two",
+            "input": 52,
+            "expected": "LII"
+        },
+        {
+            "name": "Roman fifty three",
+            "input": 53,
+            "expected": "LIII"
+        },
+        {
+            "name": "Roman fifty four",
+            "input": 54,
+            "expected": "LIV"
+        },
+        {
+            "name": "Roman fifty five",
+            "input": 55,
+            "expected": "LV"
+        },
+        {
+            "name": "Roman fifty six",
+            "input": 56,
+            "expected": "LVI"
+        },
+        {
+            "name": "Roman fifty seven",
+            "input": 57,
+            "expected": "LVII"
+        },
+        {
+            "name": "Roman fifty eight",
+            "input": 58,
+            "expected": "LVIII"
+        },
+        {
+            "name": "Roman fifty nine",
+            "input": 59,
+            "expected": "LIX"
+        }
+    ]</jsonData>
+
+</resources>

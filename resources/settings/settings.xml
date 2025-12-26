@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.LayoutMode" title="Time Layout">
+        <settingConfig type="list">
+            <listEntry value="0">Single Line</listEntry>
+            <listEntry value="1">Two Lines</listEntry>
+        </settingConfig>
+    </setting>
+</settings>
