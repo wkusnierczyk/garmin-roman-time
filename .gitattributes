@@ -55,3 +55,9 @@ resources-round-260x260/fonts/AsapCondensed-Bold-56.png filter=lfs diff=lfs merg
 resources-round-260x260/fonts/AsapCondensed-Light-75.png filter=lfs diff=lfs merge=lfs -text
 resources-round-360x360/fonts/AsapCondensed-Bold-103.png filter=lfs diff=lfs merge=lfs -text
 resources-round-240x240/fonts/AsapCondensed-Bold-51.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/xxiv-xxxviii-double.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/xxiv-xxxviii-single.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/RomanTimeCapture.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/RomanTimeHero[[:space:]]1.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/RomanTimeHero[[:space:]]2.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/RomanTimeHero.png filter=lfs diff=lfs merge=lfs -text
