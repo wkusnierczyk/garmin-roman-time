@@ -1,0 +1,10 @@
+<resources>
+
+    <fonts>
+        <font id="SingleLineHourFont" filename="AsapCondensed-Bold-89.fnt" antialias="true" />
+        <font id="SingleLineMinutesFont" filename="AsapCondensed-Light-89.fnt" antialias="true" />
+        <font id="DoubleLineHourFont" filename="AsapCondensed-Bold-119.fnt" antialias="true" />
+        <font id="DoubleLineMinutesFont" filename="AsapCondensed-Light-119.fnt" antialias="true" />
+    </fonts>
+
+</resources>
