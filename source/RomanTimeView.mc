@@ -74,14 +74,16 @@ class RomanTimeView extends WatchUi.WatchFace {
         var height = dc.getHeight();
         var centerX = width / 2;
         var centerY = height / 2;
+        var verticalSpaceCorrection = (height/20).toNumber();
 
         var hoursFont = DOUBLE_LINE_HOUR_FONT;
         var minutesFont = DOUBLE_LINE_MINUTES_FONT;
 
         var hoursDimensions = dc.getTextDimensions(hours, hoursFont);
         var hoursHeight = hoursDimensions[1];
-        var hoursY = centerY - hoursHeight + TWO_LINE_HOUR_VERTICAL_CORRECTION;
-        var minutesY = centerY + TWO_LINE_MINUTES_VERTICAL_CORRECTION;
+
+        var hoursY = centerY - hoursHeight + verticalSpaceCorrection;
+        var minutesY = centerY;
 
         dc.setColor(HOURS_COLOR, Graphics.COLOR_TRANSPARENT);
         dc.drawText(centerX, hoursY, hoursFont, hours, Graphics.TEXT_JUSTIFY_CENTER);
