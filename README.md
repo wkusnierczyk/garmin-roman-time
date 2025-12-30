@@ -8,7 +8,7 @@ A minimalist, elegant, geeky Garmin watch face that displays the current time as
 ## Contents
 
 * [Roman numerals](#roman-numerals)
-* [Project structure](#project-structure)
+* [Fonts](#fonts)
 * [Build, test, deploy](#build-test-deploy)
 
 ## Roman numerals
@@ -45,49 +45,28 @@ The watch face shows time as:
 Otherwise, the time would at times (pun intended) extend past the boundaries of the watch face. 
 In particular, `XXIV XXXVIII` is the longest pair of numeral to be displayed, and it dictates the limit on font size for the single-line mode.
 
-The watch face uses custom fonts, as the built-in fonts do not provide large enough typeface for non-numeric data.
-The font presented here is [Asap Condensed](https://fonts.google.com/specimen/Asap+Condensed), available from [Google Fonts](https://fonts.google.com/) as a True Type font (`ttf`).
-It has been converted to a bitmap font (`bmp`, `fnt`) using the open source command-line [`ttf2bmp`](https://github.com/wkusnierczyk/ttf2bmp) converter.
+## Fonts
 
-## Project structure
+The Morse Time watch face uses custom fonts:
 
-```bash
-RomanTime
-├── LICENCE                     # MIT licence
-├── Makefile                    # Convenience makefile
-├── manifest.xml                # Project manifest 
-├── monkey.jungle               # Monkey C jungle file
-├── README.md                   # This readme
-├── resources
-│   ├── drawables               # Application icon
-│   │   ├── drawables.xml
-│   │   └── launcher_icon.png
-│   ├── fonts                   # Source TTF and bitmap-converted fonts
-│   │   ├── *.fnt
-│   │   ├── *.png
-│   │   ├── *.ttf
-│   │   └── OFL.txt             # Font licence
-│   ├── graphics
-│   │   └── *.png               # Example watch face screenshots
-│   ├── layouts
-│   │   └── layout.xml          # Layouts (not used in current version)
-│   ├── settings                # Settings
-│   │   ├── properties.xml
-│   │   └── settings.xml
-│   ├── strings                 # Strings (enable i18n)
-│   │   ├── digits.xml
-│   │   └── strings.xml
-│   └── tests                   # Test case data
-│       └── roman_time_tests.xml
-└── source
-    ├── PropertyUtils.mc        # Property utilities
-    ├── RomanTime.mc            # Decimal-Roman conversion
-    ├── RomanTimeApp.mc         # Application entry point
-    ├── RomanTimeConstants.mc   # Constants sued in source code
-    ├── RomanTimeSettings.mc    # Settings menu and delegate
-    ├── RomanTimeTests.mc       # Unit tests for conversion code
-    └── RomanTimeView.mc        # Drawing routines
-```
+* [Asap Condensed](https://fonts.google.com/specimen/Asap+Condensed) for hours (bold) and minutes (light).
+
+The font development process was as follows:
+
+* The fonts were downloaded from [Google Fonts](https://fonts.google.com/) as True Type  (`.ttf`) fonts.
+* The fonts were converted to bitmaps as `.fnt` and `.png` pairs using the open source command-line [`ttf2bmp`](https://github.com/wkusnierczyk/ttf2bmp) converter.
+* The font sizes were established to match the Garmin Fenix 7X Solar watch 280x280 pixel screen resolution.
+* The fonts were then scaled proportionally to match other screen sizes available on Garmin watches with round screens using the included [utility script](utils/generate_fonts.py).
+
+The table below lists all font sizes provided for the supported screen resolutions.
+
+| Element             | Font                | 218 | 240 | 260 | 280 | 360 | 390 | 416 | 454 |
+| :------------------ | :------------------ | --: | --: | --: | --: | --: | --: | --: | --: |
+| Single line hour    | AsapCondensed bold  |  47 |  51 |  56 |  60 |  77 |  84 |  89 |  97 |
+| Single line minutes | AsapCondensed light |  47 |  51 |  56 |  60 |  77 |  84 |  89 |  97 |
+| Double line hour    | AsapCondensed bold  |  62 |  69 |  74 |  80 | 103 | 111 | 119 | 130 |
+| Double line minutes | AsapCondensed light |  62 |  69 |  74 |  80 | 103 | 111 | 119 | 130 |
+
 
 ## Build, test, deploy
 
