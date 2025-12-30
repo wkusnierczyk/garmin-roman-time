@@ -21,7 +21,7 @@
             "fontCharset": "IVXLN "
         },
         {
-            "fontId": "SingleLineMinutesFont",
+            "fontId": "DoubleLineMinutesFont",
             "fontCharset": "IVXLN "
         }
     ]</jsonData>
