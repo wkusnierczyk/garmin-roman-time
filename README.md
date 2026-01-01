@@ -70,7 +70,7 @@ The Roman Time watch face supports the following features:
 
 ## Fonts
 
-The Morse Time watch face uses custom fonts:
+The Roman Time watch face uses custom fonts:
 
 * [Asap Condensed](https://fonts.google.com/specimen/Asap+Condensed) for hours (bold) and minutes (light).
 
