@@ -1,13 +1,24 @@
 # Garmin Roman Time
 
-A minimalist, elegant, geeky Garmin watch face that displays the current time as Roman numerals.
+A minimalist, elegant, nerdy Garmin watch face that displays the current time as Roman numerals.
 
-![Single line Roman numerals](resources/graphics/xxiv-xxxviii-single.png)
-![Two line Roman numerals](resources/graphics/xxiv-xxxviii-double.png)
+![Roman Time](resources/graphics/RomanTimeHero-small.png)
+
+Available for installation from [Garmin Connect IQ Developer portal](https://apps-developer.garmin.com/apps/202e7d17-12ca-4112-b94d-da4014b06659) or through the Connect IQ mobile app.
+
+> **Note**  
+> Roman Time is part of a [collection of unconventional Garmin watch faces](https://github.com/wkusnierczyk/garmin-watch-faces). It has been developed for fun, as a proof of concept, and as a learning experience.
+> It is shared _as is_ as an open source project, with no commitment to long term maintenance and further feature development.
+>
+> Please use [issues](https://github.com/wkusnierczyk/garmin-roman-time/issues) to provide bug reports or feature requests.  
+> Please use [discussions](https://github.com/wkusnierczyk/garmin-roman-time/discussions) for any other comments.
+>
+> All feedback is wholeheartedly welcome.
 
 ## Contents
 
 * [Roman numerals](#roman-numerals)
+* [Features](#features)
 * [Fonts](#fonts)
 * [Build, test, deploy](#build-test-deploy)
 
@@ -45,18 +56,36 @@ The watch face shows time as:
 Otherwise, the time would at times (pun intended) extend past the boundaries of the watch face. 
 In particular, `XXIV XXXVIII` is the longest pair of numeral to be displayed, and it dictates the limit on font size for the single-line mode.
 
+
+
+## Features
+
+The Roman Time watch face supports the following features:
+
+|Screenshot|Description|
+|-|:-|
+|![Single line Roman numerals](resources/graphics/xxiv-xxxviii-single.png)|**Single line Roman time**<br/> The current time is displayed as a single line of Roman numerals in two groups: hour, in bold, white font, and minutes, in light, white font.|
+|![Two line Roman numerals](resources/graphics/xxiv-xxxviii-double.png)|**Double line Roman time**<br/> The current time is displayed as two lines of Roman numerals. The layout can be changed by the user with a Customize menu setting on the device.|
+
+
 ## Fonts
 
 The Morse Time watch face uses custom fonts:
 
 * [Asap Condensed](https://fonts.google.com/specimen/Asap+Condensed) for hours (bold) and minutes (light).
 
-The font development process was as follows:
+> The development of Garmin watch faces motivated the implementation of two useful tools:
+> * A TTF to FNT+PNG converter ([`ttf2bmp`](https://github.com/wkusnierczyk/ttf2bmp)).  
+> Garmin watches use non-scalable fixed-size bitmap fonts, and cannot handle variable size True Type fonts directly.
+> * An font scaler automation tool ([`garmin-font-scaler`](https://github.com/wkusnierczyk/garmin-font-scaler)).  
+> Garmin watches come in a variety of shapes and resolutions, and bitmap fonts need to be scaled for each device proportionally to its resolution.
+
+The font development proceeded as follows:
 
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/) as True Type  (`.ttf`) fonts.
 * The fonts were converted to bitmaps as `.fnt` and `.png` pairs using the open source command-line [`ttf2bmp`](https://github.com/wkusnierczyk/ttf2bmp) converter.
 * The font sizes were established to match the Garmin Fenix 7X Solar watch 280x280 pixel screen resolution.
-* The fonts were then scaled proportionally to match other screen sizes available on Garmin watches with round screens using the included [utility script](utils/generate_fonts.py).
+* The fonts were then scaled proportionally to match other screen sizes available on Garmin watches using the [`garmin-font-scaler`](https://github.com/wkusnierczyk/garmin-font-scaler) tool.
 
 The table below lists all font sizes provided for the supported screen resolutions.
 
@@ -132,11 +161,14 @@ You can use the included `Makefile` to conveniently trigger some of the actions 
 # build binaries from sources
 make build
 
-# run unit tests
+# run unit tests -- note: requires the simulator to be running
 make test
 
-# run the simulation
+# run the simulation 
 make run
+
+# clean up the project directory
+make clean
 ```
 
 To sideload your application to your Garmin watch, see [developer.garmin.com/connect-iq/connect-iq-basics/your-first-app](https://developer.garmin.com/connect-iq/connect-iq-basics/your-first-app/).
