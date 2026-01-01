@@ -60,12 +60,61 @@ The font development process was as follows:
 
 The table below lists all font sizes provided for the supported screen resolutions.
 
-| Element             | Font                | 218 | 240 | 260 | 280 | 360 | 390 | 416 | 454 |
-| :------------------ | :------------------ | --: | --: | --: | --: | --: | --: | --: | --: |
-| Single line hour    | AsapCondensed bold  |  47 |  51 |  56 |  60 |  77 |  84 |  89 |  97 |
-| Single line minutes | AsapCondensed light |  47 |  51 |  56 |  60 |  77 |  84 |  89 |  97 |
-| Double line hour    | AsapCondensed bold  |  62 |  69 |  74 |  80 | 103 | 111 | 119 | 130 |
-| Double line minutes | AsapCondensed light |  62 |  69 |  74 |  80 | 103 | 111 | 119 | 130 |
+| Resolution |    Shape     |       Element       |        Font         | Size |
+| ---------: | :----------- | :------------------ | :------------------ | ---: |
+|  148 x 205 | rectangle    | Double line hour    | AsapCondensed bold  |   42 |
+|  148 x 205 | rectangle    | Double line minutes | AsapCondensed light |   42 |
+|  148 x 205 | rectangle    | Single line hour    | AsapCondensed bold  |   32 |
+|  148 x 205 | rectangle    | Single line minutes | AsapCondensed light |   32 |
+|  176 x 176 | semi-octagon | Double line hour    | AsapCondensed bold  |   50 |
+|  176 x 176 | semi-octagon | Double line minutes | AsapCondensed light |   50 |
+|  176 x 176 | semi-octagon | Single line hour    | AsapCondensed bold  |   38 |
+|  176 x 176 | semi-octagon | Single line minutes | AsapCondensed light |   38 |
+|  215 x 180 | semi-round   | Double line hour    | AsapCondensed bold  |   51 |
+|  215 x 180 | semi-round   | Double line minutes | AsapCondensed light |   51 |
+|  215 x 180 | semi-round   | Single line hour    | AsapCondensed bold  |   39 |
+|  215 x 180 | semi-round   | Single line minutes | AsapCondensed light |   39 |
+|  218 x 218 | round        | Double line hour    | AsapCondensed bold  |   62 |
+|  218 x 218 | round        | Double line minutes | AsapCondensed light |   62 |
+|  218 x 218 | round        | Single line hour    | AsapCondensed bold  |   47 |
+|  218 x 218 | round        | Single line minutes | AsapCondensed light |   47 |
+|  240 x 240 | round        | Double line hour    | AsapCondensed bold  |   69 |
+|  240 x 240 | rectangle    | Double line hour    | AsapCondensed bold  |   69 |
+|  240 x 240 | round        | Double line minutes | AsapCondensed light |   69 |
+|  240 x 240 | rectangle    | Double line minutes | AsapCondensed light |   69 |
+|  240 x 240 | round        | Single line hour    | AsapCondensed bold  |   51 |
+|  240 x 240 | rectangle    | Single line hour    | AsapCondensed bold  |   51 |
+|  240 x 240 | round        | Single line minutes | AsapCondensed light |   51 |
+|  240 x 240 | rectangle    | Single line minutes | AsapCondensed light |   51 |
+|  260 x 260 | round        | Double line hour    | AsapCondensed bold  |   74 |
+|  260 x 260 | round        | Double line minutes | AsapCondensed light |   74 |
+|  260 x 260 | round        | Single line hour    | AsapCondensed bold  |   56 |
+|  260 x 260 | round        | Single line minutes | AsapCondensed light |   56 |
+|  280 x 280 | round        | Double line hour    | AsapCondensed bold  |   80 |
+|  280 x 280 | round        | Double line minutes | AsapCondensed light |   80 |
+|  280 x 280 | round        | Single line hour    | AsapCondensed bold  |   60 |
+|  280 x 280 | round        | Single line minutes | AsapCondensed light |   60 |
+|  320 x 360 | rectangle    | Double line hour    | AsapCondensed bold  |   91 |
+|  320 x 360 | rectangle    | Double line minutes | AsapCondensed light |   91 |
+|  320 x 360 | rectangle    | Single line hour    | AsapCondensed bold  |   69 |
+|  320 x 360 | rectangle    | Single line minutes | AsapCondensed light |   69 |
+|  360 x 360 | round        | Double line hour    | AsapCondensed bold  |  103 |
+|  360 x 360 | round        | Double line minutes | AsapCondensed light |  103 |
+|  360 x 360 | round        | Single line hour    | AsapCondensed bold  |   77 |
+|  360 x 360 | round        | Single line minutes | AsapCondensed light |   77 |
+|  390 x 390 | round        | Double line hour    | AsapCondensed bold  |  111 |
+|  390 x 390 | round        | Double line minutes | AsapCondensed light |  111 |
+|  390 x 390 | round        | Single line hour    | AsapCondensed bold  |   84 |
+|  390 x 390 | round        | Single line minutes | AsapCondensed light |   84 |
+|  416 x 416 | round        | Double line hour    | AsapCondensed bold  |  119 |
+|  416 x 416 | round        | Double line minutes | AsapCondensed light |  119 |
+|  416 x 416 | round        | Single line hour    | AsapCondensed bold  |   89 |
+|  416 x 416 | round        | Single line minutes | AsapCondensed light |   89 |
+|  454 x 454 | round        | Double line hour    | AsapCondensed bold  |  130 |
+|  454 x 454 | round        | Double line minutes | AsapCondensed light |  130 |
+|  454 x 454 | round        | Single line hour    | AsapCondensed bold  |   97 |
+|  454 x 454 | round        | Single line minutes | AsapCondensed light |   97 |
+
 
 
 ## Build, test, deploy

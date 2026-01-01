@@ -1,0 +1,18 @@
+[
+    {
+        "fontCharset": "IVXLN ",
+        "fontId": "SingleLineHourFont"
+    },
+    {
+        "fontCharset": "IVXLN ",
+        "fontId": "SingleLineMinutesFont"
+    },
+    {
+        "fontCharset": "IVXLN ",
+        "fontId": "DoubleLineHourFont"
+    },
+    {
+        "fontCharset": "IVXLN ",
+        "fontId": "DoubleLineMinutesFont"
+    }
+]
