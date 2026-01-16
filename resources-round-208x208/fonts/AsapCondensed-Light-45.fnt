@@ -1,0 +1,10 @@
+info face="AsapCondensed-Light.ttf" size=45 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,1
+common lineHeight=52 base=43 scaleW=120 scaleH=52 pages=1 packed=0
+page id=0 file="AsapCondensed-Light-45.png"
+chars count=6
+char id=73 x=0 y=0 width=12 height=52 xoffset=0 yoffset=0 xadvance=12 page=0 chnl=15
+char id=86 x=14 y=0 width=23 height=52 xoffset=0 yoffset=0 xadvance=23 page=0 chnl=15
+char id=88 x=39 y=0 width=21 height=52 xoffset=0 yoffset=0 xadvance=21 page=0 chnl=15
+char id=76 x=62 y=0 width=18 height=52 xoffset=0 yoffset=0 xadvance=18 page=0 chnl=15
+char id=78 x=82 y=0 width=27 height=52 xoffset=0 yoffset=0 xadvance=27 page=0 chnl=15
+char id=32 x=111 y=0 width=7 height=52 xoffset=0 yoffset=0 xadvance=7 page=0 chnl=15

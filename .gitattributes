@@ -97,3 +97,7 @@ resources-semi-round-215x180/fonts/AsapCondensed-Bold-39.png filter=lfs diff=lfs
 resources/graphics/RomanTimeHero-small.png filter=lfs diff=lfs merge=lfs -text
 resources/graphics/RomanTimeDesign02.png filter=lfs diff=lfs merge=lfs -text
 resources/graphics/RomanTimeDesign01.png filter=lfs diff=lfs merge=lfs -text
+resources-round-208x208/fonts/AsapCondensed-Light-45.png filter=lfs diff=lfs merge=lfs -text
+resources-round-208x208/fonts/AsapCondensed-Bold-45.png filter=lfs diff=lfs merge=lfs -text
+resources-round-208x208/fonts/AsapCondensed-Bold-59.png filter=lfs diff=lfs merge=lfs -text
+resources-round-208x208/fonts/AsapCondensed-Light-59.png filter=lfs diff=lfs merge=lfs -text
